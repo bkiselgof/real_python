@@ -32,6 +32,10 @@ for count, value in enumerate(values):
 #The count of the current iteration
 #The value of the item at the current iteration
 
+[(i,j) for i, j in enumerate(values)]
+
+{i:j for i, j in enumerate(values)}
+
 #########################
 #Argument unpacking example
 def f(x, y, z):
